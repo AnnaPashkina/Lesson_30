@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        /*Scanner console = new Scanner(System.in);
+        /*
         while (true) {
 
             String s_new = console.nextLine();
@@ -24,13 +24,29 @@ public class Main {
       {System.out.println(l);
           l--;} */
 
-          int k=17;
+          /*int k=17;
           do {System.out.println(" Я люблю выходные ");
                   k--;}
-          while (k>0);
+          while (k>0);*/
+     /* 25
+        }*/
 
-      }
 
 
-    }
+
+
+       /* int result = 0;
+        for (int i = 1; i <= 5; i++) {
+
+            if ((i % 5) == 0) {
+                System.out.println(i);
+                continue;
+            }
+
+            result = result + i;*/
+        }
+
+}
+
+
 
