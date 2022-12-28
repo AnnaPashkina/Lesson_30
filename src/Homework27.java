@@ -2,17 +2,14 @@ import java.util.Scanner;
 
 public class Homework27 {
     public static void main(String[] args) {
-       /*int result = 0;
-        for (int k=7; k<=9; k++)
-        {
-            result = result +k;
+        /*Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+        System.out.println((num % 10) + (num / 10) % 10 + (num / 100));
+    }*/
 
-        }
-        Scanner console = new Scanner(System.in);
-                String k = console.nextLine();
 
-              System.out.println(result);*/
-/*int result = 1;
+
+/*/*int result = 1;
         for (int k=3; k<=5; k++)
         {
             result = result *k;
@@ -24,22 +21,21 @@ public class Homework27 {
               System.out.println(result);*/
        /*for (int k =1; k<=10; k++)
         System.out.println(k+"*3 = "+k*3);*/
+        int result = 42000;
         int a = 2;
-        int s= 3000;
-
-
-          if ( a<=3) {
-              System.out.println("+10 %");
-          }
-
-        if ( a>=3) {System.out.println("+20%");}
-        if (s>=40000) {System.out.println(" бонус = 500 грн.");}
-        if (s<40000) {System.out.println(" бонус = 1000 грн.");}
+        if (a >= 1 & a < 3 & (result + result * 0.1)<40000 || (result + result * 0.2)<40000) {
+            System.out.println((result + result*0.1)+1000);
+        }
+              else System.out.println((result + result*0.2)+500);
+        }
+    }
 
 
 
-                  }
-              }
+
+
+
+
 
 
 
